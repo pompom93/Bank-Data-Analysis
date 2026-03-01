@@ -32,6 +32,7 @@ To prepare the data for modeling, I addressed several challenges:
 ### Exploratory Data Analysis (EDA)
 I performed EDA to understand distributions and relationships:
 * **Distributions:** Analyzed customer age and income distributions.
+
 **EDA: Customer Age Distribution**
 <img src="plots/1EDA_age_dist.png" width="600">
 
@@ -72,4 +73,4 @@ The models were evaluated based on **Test R² (Coefficient of Determination)** a
 * **Business Impact:** By utilizing this model, the business can accurately score customers based on their predicted sales potential, allowing for more precise marketing targeting and improved resource allocation.
 
 ---
-*This project was completed as part of a school data analysis curriculum.*
+*This project was completed for the Applications and Deployment of Advanced Analytics course (Masters' Program), at the University of North Texas.*
