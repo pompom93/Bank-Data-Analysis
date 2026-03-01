@@ -32,13 +32,20 @@ To prepare the data for modeling, I addressed several challenges:
 ### Exploratory Data Analysis (EDA)
 I performed EDA to understand distributions and relationships:
 * **Distributions:** Analyzed customer age and income distributions.
+**EDA: Customer Age Distribution**
 ![Age Distribution](plots/1EDA_age_dist.png)
 
 * **Relationships:** Investigated the correlation between Age vs. Income and Home Ownership patterns.
+
+**EDA: Age vs. Income Relationship**
 ![Age vs Income](plots/2EDA_age_vs_income.png)
+
+**EDA: HOme Ownership Patterns**
 ![Home Ownership](plots/3EDA_home_ownership.png)
 
 * **Correlation Matrix:** Generated a heatmap to identify strong correlations between RFM features and the target variable.
+
+**EDA: Correlation Analysis**
 ![Correlation Heatmap](plots/4EDA_correlation_analysis.png)
 
 ## Modeling and Evaluation
@@ -55,6 +62,7 @@ The models were evaluated based on **Test R² (Coefficient of Determination)** a
 * **Best Performing Model:** K-Nearest Neighbors (KNN) Regression.
 * **Performance:** The KNN model achieved a **Test R² of 0.834**, demonstrating superior predictive capability compared to the other models tested.
 
+**Model Selection and Performance**
 ![Model Performance Comparison](plots/5models1.png)
 ![Model Performance Comparison](plots/6models2.png)
 
