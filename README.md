@@ -41,12 +41,11 @@ I performed EDA to understand distributions and relationships:
 <img src="plots/2EDA_age_vs_income.png" width="600">
 
 
-**EDA: HOme Ownership Patterns**
+**EDA: Home Ownership Patterns**
 <img src="plots/3EDA_home_ownership.png" width="600">
 
 * **Correlation Matrix:** Generated a heatmap to identify strong correlations between RFM features and the target variable.
 
-**EDA: Correlation Analysis**
 <img src="plots/4EDA_correlation_analysis.png" width="600">
 
 ## Modeling and Evaluation
