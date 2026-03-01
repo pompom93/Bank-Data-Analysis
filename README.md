@@ -47,7 +47,7 @@ I performed EDA to understand distributions and relationships:
 * **Correlation Matrix:** Generated a heatmap to identify strong correlations between RFM features and the target variable.
 
 **EDA: Correlation Analysis**
-<img src="plots/4EDA_correlation_analysis.png" width="600" align="left">>
+<img src="plots/4EDA_correlation_analysis.png" width="600">
 
 ## Modeling and Evaluation
 I implemented and compared several regression models to find the best fit for the data:
