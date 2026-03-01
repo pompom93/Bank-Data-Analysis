@@ -34,11 +34,13 @@ I performed EDA to understand distributions and relationships:
 * **Distributions:** Analyzed customer age and income distributions.
 **EDA: Customer Age Distribution**
 ![Age Distribution](plots/1EDA_age_dist.png)
+<img src="plots/1EDA_age_dist.png" width="150">
 
 * **Relationships:** Investigated the correlation between Age vs. Income and Home Ownership patterns.
 
 **EDA: Age vs. Income Relationship**
 ![Age vs Income](plots/2EDA_age_vs_income.png)
+
 
 **EDA: HOme Ownership Patterns**
 ![Home Ownership](plots/3EDA_home_ownership.png)
