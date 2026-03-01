@@ -33,22 +33,21 @@ To prepare the data for modeling, I addressed several challenges:
 I performed EDA to understand distributions and relationships:
 * **Distributions:** Analyzed customer age and income distributions.
 **EDA: Customer Age Distribution**
-![Age Distribution](plots/1EDA_age_dist.png)
 <img src="plots/1EDA_age_dist.png" width="600">
 
 * **Relationships:** Investigated the correlation between Age vs. Income and Home Ownership patterns.
 
 **EDA: Age vs. Income Relationship**
-![Age vs Income](plots/2EDA_age_vs_income.png)
+<img src="plots/2EDA_age_vs_income.png" width="600">
 
 
 **EDA: HOme Ownership Patterns**
-![Home Ownership](plots/3EDA_home_ownership.png)
+<img src="plots/3EDA_home_ownership" width="600">
 
 * **Correlation Matrix:** Generated a heatmap to identify strong correlations between RFM features and the target variable.
 
 **EDA: Correlation Analysis**
-![Correlation Heatmap](plots/4EDA_correlation_analysis.png)
+<img src="plots/4EDA_correlation_analysis.png" width="600">
 
 ## Modeling and Evaluation
 I implemented and compared several regression models to find the best fit for the data:
@@ -65,8 +64,8 @@ The models were evaluated based on **Test R² (Coefficient of Determination)** a
 * **Performance:** The KNN model achieved a **Test R² of 0.834**, demonstrating superior predictive capability compared to the other models tested.
 
 **Model Selection and Performance**
-![Model Performance Comparison](plots/5models1.png)
-![Model Performance Comparison](plots/6models2.png)
+<img src="plots/5models1.png" width="600">
+<img src="plots/6models2.png" width="600">
 
 ## Conclusion
 * **Behavioral vs. Demographic:** The analysis revealed that behavioral metrics (RFM) outperform demographic variables in predicting sales potential.
